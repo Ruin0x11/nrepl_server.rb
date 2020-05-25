@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    nrepl_server (0.1.0)
+      bencode (~> 0.7.0)
+      eventmachine (~> 1.2.7)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bencode (0.7.0)
+    eventmachine (1.2.7-x64-mingw32)
+    rake (10.5.0)
+
+PLATFORMS
+  x64-mingw32
+
+DEPENDENCIES
+  bundler (~> 1.17)
+  nrepl_server!
+  rake (~> 10.0)
+
+BUNDLED WITH
+   1.17.2
